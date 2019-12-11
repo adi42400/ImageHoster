@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/CommentControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/HomeControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/ImageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/UserControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,76 +142,111 @@
       <workItem from="1576080949214" duration="1064000" />
       <workItem from="1576082361837" duration="298000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented Edit and Delete">
+      <created>1576090818283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576090818283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented Edit and Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Edit and Delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576081729639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576081729639" />
-    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1576089318856">
+    <state x="484" y="232" width="398" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576094312002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="450" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1576089318856" />
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom" timestamp="1576090762700">
+    <state x="484" y="232" width="398" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1576094312002" />
+    <state x="298" y="0" key="CommitChangelistDialog2" timestamp="1576090811315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576090762700" />
-    <state width="1323" height="232" key="GridCell.Tab.0.center" timestamp="1576090762699">
+    <state x="298" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576090811315" />
+    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1576093371893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576090762699" />
-    <state width="1323" height="232" key="GridCell.Tab.0.left" timestamp="1576090762699">
+    <state width="450" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1576093371893" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1576094361229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576090762699" />
-    <state width="1323" height="232" key="GridCell.Tab.0.right" timestamp="1576090762700">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576094361229" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1576094361229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576090762699" />
-    <state width="1323" height="232" key="GridCell.Tab.1.bottom" timestamp="1576090762700">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576094361229" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1576094361228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576090762700" />
-    <state width="1323" height="232" key="GridCell.Tab.1.center" timestamp="1576090762700">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576094361228" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1576094361229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576090762700" />
-    <state width="1323" height="232" key="GridCell.Tab.1.left" timestamp="1576090762700">
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576094361229" />
+    <state width="1323" height="180" key="GridCell.Tab.1.bottom" timestamp="1576094361231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576090762700" />
-    <state width="1323" height="232" key="GridCell.Tab.1.right" timestamp="1576090762700">
+    <state width="1323" height="180" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576094361230" />
+    <state width="1323" height="180" key="GridCell.Tab.1.center" timestamp="1576094361230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="232" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576090762700" />
-    <state width="1323" height="180" key="GridCell.Tab.2.bottom" timestamp="1576090249065">
+    <state width="1323" height="180" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576094361230" />
+    <state width="1323" height="180" key="GridCell.Tab.1.left" timestamp="1576094361230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576090249065" />
-    <state width="1323" height="180" key="GridCell.Tab.2.center" timestamp="1576090249065">
+    <state width="1323" height="180" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576094361230" />
+    <state width="1323" height="180" key="GridCell.Tab.1.right" timestamp="1576094361230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1576090249065" />
-    <state width="1323" height="180" key="GridCell.Tab.2.left" timestamp="1576090249065">
+    <state width="1323" height="180" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576094361230" />
+    <state width="1323" height="180" key="GridCell.Tab.2.bottom" timestamp="1576094361232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1576090249065" />
-    <state width="1323" height="180" key="GridCell.Tab.2.right" timestamp="1576090249065">
+    <state width="1323" height="180" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576094361232" />
+    <state width="1323" height="180" key="GridCell.Tab.2.center" timestamp="1576094361231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1576090249065" />
+    <state width="1323" height="180" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1576094361231" />
+    <state width="1323" height="180" key="GridCell.Tab.2.left" timestamp="1576094361231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1576094361231" />
+    <state width="1323" height="180" key="GridCell.Tab.2.right" timestamp="1576094361231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1576094361231" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576081610794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576081610794" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1576090829465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576090829465" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1576082366581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576082366580" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

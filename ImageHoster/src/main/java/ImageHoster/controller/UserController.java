@@ -5,6 +5,7 @@ import ImageHoster.model.User;
 import ImageHoster.model.UserProfile;
 import ImageHoster.service.ImageService;
 import ImageHoster.service.UserService;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 @Controller
@@ -40,7 +43,18 @@ public class UserController {
     //This controller method is called when the request pattern is of type 'users/registration' and also the incoming request is of POST type
     //This method calls the business logic and after the user record is persisted in the database, directs to login page
     @RequestMapping(value = "users/registration", method = RequestMethod.POST)
-    public String registerUser(User user) {
+    public String registerUser(User user, Model model) {
+        Boolean passwordTypeError = false;
+        String regularExpression = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@$!%*#?&])[A-Za-z\\d@$!%*#?&]$";
+        Pattern pattern = Pattern.compile(regularExpression);
+        Matcher matcher = pattern.matcher(user.getPassword());
+        if(!matcher.matches())
+        {
+            passwordTypeError = true;
+            model.addAttribute("User", user);
+            model.addAttribute("passwordTypeError", passwordTypeError);
+            return "users/registration";
+        }
         userService.registerUser(user);
         return "redirect:/users/login";
     }

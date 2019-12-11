@@ -159,7 +159,7 @@ public class ImageController {
         model.addAttribute("deleteError", deleteError);
         if(deleteError) {
             return "images/image";
-        }//"redirect:/images/" + imageId +"/"+ image.getTitle();
+        }
         return "redirect:/images";
     }
 
