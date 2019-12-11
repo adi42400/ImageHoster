@@ -138,16 +138,28 @@ public class ImageController {
         updatedImage.setDate(new Date());
 
         imageService.updateImage(updatedImage);
-        return "redirect:/images/" + updatedImage.getTitle();
+        return "redirect:/images/" + updatedImage.getId() +"/"+ updatedImage.getTitle();
     }
-
 
     //This controller method is called when the request pattern is of type 'deleteImage' and also the incoming request is of DELETE type
     //The method calls the deleteImage() method in the business logic passing the id of the image to be deleted
     //Looks for a controller method with request mapping of type '/images'
     @RequestMapping(value = "/deleteImage", method = RequestMethod.DELETE)
-    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId) {
-        imageService.deleteImage(imageId);
+    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId, Model model, HttpSession httpSession) {
+        Image image = imageService.getImage(imageId);
+        Boolean deleteError = true;
+        User user = (User) httpSession.getAttribute("loggeduser");
+        if(user.getId() == image.getUser().getId()) {
+            deleteError = false;
+            imageService.deleteImage(imageId);
+        }
+        String tags = convertTagsToString(image.getTags());
+        model.addAttribute("image", image);
+        model.addAttribute("tags", tags);
+        model.addAttribute("deleteError", deleteError);
+        if(deleteError) {
+            return "images/image";
+        }//"redirect:/images/" + imageId +"/"+ image.getTitle();
         return "redirect:/images";
     }
 

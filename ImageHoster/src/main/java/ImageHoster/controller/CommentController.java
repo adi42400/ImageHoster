@@ -19,25 +19,18 @@ import java.util.Date;
 @Controller
 public class CommentController {
 	
-	
 	@Autowired
 	private CommentService commentService;
 	
 	@Autowired
 	private ImageService imageService;
 	
-	
-	
-
-	
 	@RequestMapping(value = "image/{imageId}/{imageTitle}/comments",method = RequestMethod.POST)
 	public String createComment(@PathVariable("imageId") Integer imageId, @RequestParam("comment")String text,Comment newComment, HttpSession session ){
 		
 		User user = (User) session.getAttribute("loggeduser");
-		
 		newComment.setUser(user);
 		newComment.setDate(new Date());
-		
 		Image image =imageService.getImage(imageId);
 		newComment.setImages(image);
 		newComment.setText(text);
