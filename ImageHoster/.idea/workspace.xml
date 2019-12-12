@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,7 @@
       <workItem from="1575480697437" duration="1852000" />
       <workItem from="1576080949214" duration="1064000" />
       <workItem from="1576082361837" duration="298000" />
-      <workItem from="1576117294297" duration="5317000" />
+      <workItem from="1576117294297" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Edit and Delete">
       <created>1576090818283</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576122600584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented password validation">
+      <created>1576122748595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576122748595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,18 +183,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="232" width="398" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1576094312002" />
-    <state x="298" y="0" key="CommitChangelistDialog2" timestamp="1576122595176">
+    <state x="298" y="0" key="CommitChangelistDialog2" timestamp="1576122746531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="298" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576122595176" />
+    <state x="298" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576122746531" />
     <state width="450" height="466" key="DebuggerActiveHint" timestamp="1576120919734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="450" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1576120919734" />
-    <state x="129" y="54" key="DiffContextDialog" timestamp="1576122683201">
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1576122796864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1576122683201" />
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1576122796864" />
     <state width="1323" height="232" key="GridCell.Tab.0.bottom" timestamp="1576122468993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,10 +247,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576081610794" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1576122685325">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1576122800805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576122685325" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576122800805" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1576117294994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -265,7 +271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java</url>
-          <line>47</line>
+          <line>43</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>

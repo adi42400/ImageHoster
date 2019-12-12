@@ -2,14 +2,10 @@ package ImageHoster.repository;
 
 
 import ImageHoster.model.Comment;
-import ImageHoster.model.Image;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
-
-
 import java.util.List;
-import java.util.stream.Collectors;
 
 //The annotation is a special type of @Component annotation which describes that the class defines a data repository
 @Repository
