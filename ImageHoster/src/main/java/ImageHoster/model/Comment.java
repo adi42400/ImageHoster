@@ -2,7 +2,9 @@ package ImageHoster.model;
 
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 //@Entity annotation specifies that the corresponding class is a JPA entity
 @Entity
@@ -13,17 +15,17 @@ public class Comment {
 	
 	
 	//@Id annotation specifies that the corresponding attribute is a primary key
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	//@Column annotation specifies that the attribute will be mapped to the column in the database.
 	//Here the column name is explicitly mentioned as 'id'
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
 	private Integer id;
 	
 	// Text is a Postgres specific column type that allows you to save
 	// text based data that will be longer than 256 characters
 	// this is a base64 encoded version of the image
-	@Column(columnDefinition = "TEXT")
+	@Column(name = "text")
 	private String text;
 	
 	
@@ -37,8 +39,7 @@ public class Comment {
 	//Below annotation indicates that the name of the column in 'comment' table referring the primary key in 'users' table will be 'user_id'
 	@JoinColumn(name = "user_id")
 	private User user;
-	
-	
+
 	
 	//The 'comment' table is mapped to 'images' table with Many:One mapping
 	//One comment can have only one image associated with it but one image can have multiple comment
@@ -47,7 +48,7 @@ public class Comment {
 	//Below annotation indicates that the name of the column in 'comment' table referring the primary key in 'image' table will be 'image_id'
 	@JoinColumn(name = "image_id")
 	private Image images;
-	
+
 	
 	public Comment() {
 	}

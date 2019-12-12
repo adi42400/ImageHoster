@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpSession;
 import java.util.Date;
@@ -26,8 +28,7 @@ public class CommentController {
 	private ImageService imageService;
 	
 	@RequestMapping(value = "image/{imageId}/{imageTitle}/comments",method = RequestMethod.POST)
-	public String createComment(@PathVariable("imageId") Integer imageId, @RequestParam("comment")String text,Comment newComment, HttpSession session ){
-		
+	public String createComment(@PathVariable("imageId") Integer imageId, @RequestParam("comment")String text, Comment newComment, HttpSession session ){
 		User user = (User) session.getAttribute("loggeduser");
 		newComment.setUser(user);
 		newComment.setDate(new Date());
